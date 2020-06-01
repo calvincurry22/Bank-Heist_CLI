@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g9TRWTSsqzrKRRGUm4wtNrO46H8ZH9wfYWOL/Jp/+xsIOmWX+qTG2F8TSiC8XbVjN8yOHlZnbIn6Ne+OoCBh+g==",
+  "dgSpecHash": "lxv+pFepJgpTSc7uCJyMPrrapDwhXQOUw8Vjk04+uPFwPdJzmUfpjCzgRDIp8ee000ECvcLi+FprJK1JyL5KAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\calvi\\workspace\\csharp\\exercises\\Bank-Heist_CLI\\bank-heist.csproj",
+  "projectFilePath": "C:\\Users\\mecar\\workspace\\server side\\Group Project\\Bank-Heist_CLI\\bank-heist.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\calvi\\.nuget\\packages\\": {}
+    "C:\\Users\\mecar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\calvi\\workspace\\csharp\\exercises\\Bank-Heist_CLI\\bank-heist.csproj",
+      "projectUniqueName": "C:\\Users\\mecar\\workspace\\server side\\Group Project\\Bank-Heist_CLI\\bank-heist.csproj",
       "projectName": "bank-heist",
-      "projectPath": "C:\\Users\\calvi\\workspace\\csharp\\exercises\\Bank-Heist_CLI\\bank-heist.csproj",
-      "packagesPath": "C:\\Users\\calvi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\calvi\\workspace\\csharp\\exercises\\Bank-Heist_CLI\\obj\\",
+      "projectPath": "C:\\Users\\mecar\\workspace\\server side\\Group Project\\Bank-Heist_CLI\\bank-heist.csproj",
+      "packagesPath": "C:\\Users\\mecar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mecar\\workspace\\server side\\Group Project\\Bank-Heist_CLI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\calvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mecar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

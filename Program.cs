@@ -42,7 +42,7 @@ namespace bank_heist
                     {
                         Console.WriteLine("Please enter courage factor (0.0 - 2.0)");
                         bool success = double.TryParse(Console.ReadLine(), out courageFactor);
-                        if (success && courageFactor > 0 && courageFactor < 2.0)
+                        if (success && courageFactor > 0 && courageFactor <= 2.0)
                         {
                             Console.WriteLine($"Courage Factor set to: {courageFactor}");
                             break;
@@ -63,11 +63,21 @@ namespace bank_heist
             }
             if (sugarGliders.ShowMemberCount() > 0)
             {
-                sugarGliders.ShowTeam();
+                Console.WriteLine($"Your team has {sugarGliders.ShowMemberCount()} members.");
             }
             else
             {
                 Console.WriteLine("No members on your team");
+            }
+            int bankDifficultyLevel = 100;
+
+            if (sugarGliders.TotalSkillLevel() >= bankDifficultyLevel)
+            {
+                System.Console.WriteLine("Success! You've robbed a bank!");
+            }
+            else
+            {
+                System.Console.WriteLine("Failure! Get good.");
             }
         }
     }

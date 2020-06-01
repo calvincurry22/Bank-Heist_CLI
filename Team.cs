@@ -24,5 +24,14 @@ namespace bank_heist
                 Console.WriteLine(member);
             }
         }
+        public int TotalSkillLevel()
+        {
+            int skillSum = 0;
+            foreach (TeamMember member in newTeam)
+            {
+                skillSum = skillSum + member.MemberSkillLevel();
+            }
+            return skillSum;
+        }
     }
 }

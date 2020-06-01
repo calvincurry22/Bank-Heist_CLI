@@ -26,5 +26,9 @@ namespace bank_heist
             ";
         }
 
+        public int MemberSkillLevel()
+        {
+            return _skillLevel;
+        }
     }
 }
