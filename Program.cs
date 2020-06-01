@@ -69,21 +69,35 @@ namespace bank_heist
             {
                 Console.WriteLine("No members on your team");
             }
-            Random randomInteger = new Random();
-            int luckValue = randomInteger.Next(-10, 10);
-            int bankDifficultyLevel = 100 + luckValue;
-
-            System.Console.WriteLine($"The team's combined skill level is, {sugarGliders.TotalSkillLevel()}");
-            System.Console.WriteLine($"The bank's difficulty level is, {bankDifficultyLevel}");
-
-            if (sugarGliders.TotalSkillLevel() >= bankDifficultyLevel)
+            System.Console.WriteLine("Choose the number of trail");
+            int num = 0;
+            bool trail = int.TryParse(Console.ReadLine(), out num);
+            if (trail && num > 0)
             {
-                System.Console.WriteLine("Success! You've robbed a bank!");
+                for (int i = 0; i < num; i++)
+                {
+                    Random randomInteger = new Random();
+                    int luckValue = randomInteger.Next(-10, 10);
+                    int bankDifficultyLevel = 100 + luckValue;
+
+                    System.Console.WriteLine($"The team's combined skill level is, {sugarGliders.TotalSkillLevel()}");
+                    System.Console.WriteLine($"The bank's difficulty level is, {bankDifficultyLevel}");
+
+                    if (sugarGliders.TotalSkillLevel() >= bankDifficultyLevel)
+                    {
+                        System.Console.WriteLine("Success! You've robbed a bank!");
+                    }
+                    else
+                    {
+                        System.Console.WriteLine("Failure! Get good.");
+                    }
+                }
             }
             else
             {
-                System.Console.WriteLine("Failure! Get good.");
+                System.Console.WriteLine("Positive integer");
             }
+
         }
     }
 }
