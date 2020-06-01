@@ -69,7 +69,12 @@ namespace bank_heist
             {
                 Console.WriteLine("No members on your team");
             }
-            int bankDifficultyLevel = 100;
+            Random randomInteger = new Random();
+            int luckValue = randomInteger.Next(-10, 10);
+            int bankDifficultyLevel = 100 + luckValue;
+
+            System.Console.WriteLine($"The team's combined skill level is, {sugarGliders.TotalSkillLevel()}");
+            System.Console.WriteLine($"The bank's difficulty level is, {bankDifficultyLevel}");
 
             if (sugarGliders.TotalSkillLevel() >= bankDifficultyLevel)
             {
